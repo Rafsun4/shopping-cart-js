@@ -130,6 +130,7 @@ decreaseButton2.addEventListener('click', function () {
     document.getElementById('totalCost').innerText = newTotalCost;
 })
 
+//Checkout Section
 document.getElementById("checkout").addEventListener("click", function () {
     var cart = document.getElementById("cart");
     cart.style.display = "none";

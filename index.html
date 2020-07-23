@@ -9,10 +9,10 @@
    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-      <!-- -------------------------------Cart-------------------- -->
+
       <section>
          <div class="container">
-            <div class="cart">
+            <div id="cart" class="cart">
                <div class="col-md-12 col-lg-10 mx-auto">
                   <div class="cart-item">
                      <div class="row">
@@ -20,8 +20,7 @@
                            <img src="images/product-1.png" alt="">
                            <h5>iPhone 11 128GB Black</h5>
                         </div>
-                        
-                        </div>
+      
                         <div class="col-md-5 center-item">
                            <div class="input-group number-spinner">
                               <button id="decreaseButton1" class="btn btn-default"><i class="fas fa-minus"></i></button>
@@ -55,7 +54,6 @@
       
                   <div class="cart-item">
                      <div class="row">
-                     <!-- -----------------------------Total--------------- -->
                         <div class="col-md-8">
                            <h5>Subtotal: </h5>
                            <h5>Tax:</h5>
@@ -70,8 +68,18 @@
                      </div>
                   </div>
                   <div class="col-md-12 pt-4 pb-4">
-                     <button id="enter-btn" type="button" class="btn btn-success check-out">Check Out</button>
+                     <button id="checkout" type="button" class="btn btn-success check-out">Check Out</button>
                   </div>
+               </div>
+            </div>
+         </div>
+      
+      <section>
+         <div id="checkoutSection" class="container">
+            <div class="row box">
+               <div class="col-lg-12">
+                  <h3 class="text-center text-white">Congratulations!</h3>
+                  <h2 class="text-center text-white">Purchased Successfully</h2>
                </div>
             </div>
          </div>

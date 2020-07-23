@@ -1,3 +1,5 @@
+
+
 //  increaseButton1
 const increaseButton1 = document.getElementById('increaseButton1');
 increaseButton1.addEventListener('click', function () {
@@ -128,7 +130,9 @@ decreaseButton2.addEventListener('click', function () {
     document.getElementById('totalCost').innerText = newTotalCost;
 })
 
-document.getElementById("enter-btn").addEventListener("click", () => {
-    document.getElementById("login-area").style.display = "none";
-    document.getElementById("transaction-area").style.display = "block";
-});
+document.getElementById("checkout").addEventListener("click", function () {
+    var cart = document.getElementById("cart");
+    cart.style.display = "none";
+    var checkoutSection = document.getElementById("checkoutSection");
+    checkoutSection.style.display = "block";
+})

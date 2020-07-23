@@ -53,3 +53,13 @@ body{
 	background-color: #2FBE70;
 	border: none;
 }
+.box {
+	padding: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+	box-shadow: 5px 5px 10px gray;
+	background-color: #2FBE70;
+}
+#checkoutSection {
+	display: none;
+}

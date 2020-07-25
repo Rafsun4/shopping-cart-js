@@ -1,5 +1,6 @@
 body{
-	background: #fff;
+	background-image: url("images/background-img.jpg");
+	background-size: cover;
 }
 .cart{
 	margin: 100px 0;
@@ -58,7 +59,8 @@ body{
     margin-top: 50px;
     border-radius: 10px;
 	box-shadow: 5px 5px 10px gray;
-	background-color: #2FBE70;
+	background-color: rgb(61, 179, 226);
+	color: white;
 }
 #checkoutSection {
 	display: none;
